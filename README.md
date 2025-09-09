@@ -2,10 +2,21 @@
 
 ## Introduction
 
+Convert any uploaded **.txt** file in an S3 bucket into an **MP3** using **Amazon Polly**, via an **AWS Lambda** function triggered by S3 events.
+
+## Prerequisites
+
+* AWS account + AWS CLI configured
+* **AWS SAM CLI**
+* Python 3.11
+
 ## Uses
+1. Accessibility (WCAG/ADA): Provide audio alternatives for policies, help pages, handbooks, study guides—created automatically on upload.
 
-## Project Layout
+2. E-learning narration: Convert lesson scripts to MP3 for LMS modules; versioned in S3, swapped per course update.
+3. Audio newsletters & podcasts: Convert long-form posts into episodic MP3s; stitch segments and publish a feed.
 
+4. Multilingual announcements: Generate localized audio by switching Polly voices/languages for product updates or kiosk announcements.
 
 ## Steps
 
